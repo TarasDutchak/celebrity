@@ -1,0 +1,860 @@
+@media(min-width:1400px) {
+    .container {
+        max-width: 1350px;
+    }
+}
+
+@media(max-width:1600.8px) {
+    header.header {
+        height: 80px;
+    }
+
+    .header__logo img {
+        max-width: 140px;
+    }
+
+    .header__logo,
+    .header__phone {
+        width: 250px;
+    }
+
+    .header__phone a {
+        padding: 0;
+    }
+
+    main {
+        padding-top: 80px;
+    }
+
+    .header__nav ul li {
+        margin-right: 40px;
+    }
+
+    .header__language ul {
+        top: 50px;
+    }
+
+    .visitslider .mainslider__slide,
+    .mainscreen {
+        height: 1000px;
+    }
+
+    .mainscreen__textsect {
+        top: 200px;
+    }
+
+    .visitslider .slick-arrow {
+        top: 270px;
+    }
+
+    .visitslider .slick-arrow.slick-prev {
+        left: 100px;
+    }
+
+    .visitslider .slick-arrow.slick-next {
+        right: 100px;
+    }
+
+    .custombtn {
+        width: 215px;
+        height: 50px;
+    }
+
+    .genslider .mainslider:after {
+        width: 240px;
+        height: 60px;
+    }
+
+    .genslider .mainslider {
+        padding-top: 60px;
+    }
+
+    .genslider .mainslider .slick-arrow {
+        width: 120px;
+        height: 60px;
+    }
+
+    .genslider .mainslider .slick-prev.slick-arrow {
+        right: 120px;
+    }
+
+    .genslider .celebrname {
+        left: 16%;
+        width: 55%;
+        top: 10px;
+    }
+
+    .celebrity-luxury {
+        margin-top: -415px;
+    }
+
+    .genslider .mainslider__slide {
+        height: 600px;
+    }
+
+    .section-subtitle {
+        margin-bottom: 40px;
+    }
+
+    .sectleft-descr {
+        margin-bottom: 60px;
+    }
+
+    .akcii .custombtn {
+        width: 260px;
+    }
+
+    .scrslidebox .textbox {
+        height: 100px;
+    }
+
+    .scrslidebox .back .akcii__date {
+        margin-bottom: 35px;
+    }
+
+    .ourcenters {
+        padding: 150px 0 100px;
+    }
+
+    .slcont {
+        width: 750px;
+        height: 580px;
+    }
+
+    .slider-centermode .slick-center .slcont .picbox,
+    .slider-centermode .slick-slide[aria-hidden="true"]:not([tabindex="-1"])+.slick-cloned[aria-hidden="true"] .slcont .picbox {
+        width: 700px;
+        height: 450px;
+    }
+
+    .slider-centermode__slide .textbox {
+        width: 700px;
+        height: 450px;
+    }
+
+    .textbox__cont .address .name {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .textbox__cont .address .addr {
+        font-size: 16px;
+        line-height: normal;
+        margin: 0;
+    }
+
+    .textbox__cont .address {
+        padding-right: 10px;
+    }
+
+    .textbox__cont a {
+        width: 200px;
+        height: 44px;
+    }
+
+    .textbox__cont {
+        padding-bottom: 20px;
+    }
+
+    .reviews .review-box .quotepic {
+        width: 50px;
+        margin-bottom: 15px;
+    }
+
+    .reviews .review-text p {
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    .reviews .review-text {
+        height: 185px;
+    }
+
+    .reviews .review-box {
+        padding: 30px;
+    }
+
+    .ournews {
+        padding: 100px 0 200px 0;
+    }
+
+    .contacts-section input {
+        margin-bottom: 50px;
+    }
+
+    .footer-wrapper {
+        padding: 40px 50px;
+    }
+
+    .footer__nav ul li {
+        margin-right: 35px;
+    }
+
+    .mtmin70 {
+        margin-top: -60px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .mainscreen__textsect h1 {
+        font-size: 56px;
+    }
+
+    .section-title,
+    .contacts-section .title {
+        font-size: 32px;
+    }
+
+    .mainscreen__textsect p {
+        font-size: 18px;
+    }
+
+    .celebrity-luxury .spaceleft-container {
+        padding-top: 70px;
+    }
+
+    .akcii {
+        padding: 200px 0;
+    }
+
+    .reviews {
+        padding: 100px 0;
+    }
+
+    .ourcenters .subtitle,
+    .ournews .subtitle {
+        margin-bottom: 20px;
+    }
+
+    .footer__social .phone {
+        margin-bottom: 30px;
+    }
+
+    .ourcenters .descr,
+    .ournews .descr,
+    .contacts-section .title {
+        margin-bottom: 60px;
+    }
+
+
+}
+
+@media(max-width:1400.8px) {
+    .header__logo img {
+        max-width: 120px;
+    }
+
+    .header__logo,
+    .header__phone {
+        width: 220px;
+    }
+
+    .header__nav {
+        padding: 0 30px;
+    }
+
+    .header__nav ul li {
+        margin-right: 25px;
+    }
+
+    .header__language>span:after {
+        top: 2px;
+    }
+
+    .visitslider .mainslider__slide,
+    .mainscreen {
+        height: 900px;
+    }
+
+    .mainscreen__textsect {
+        top: 150px;
+    }
+
+    .visitslider .slick-arrow {
+        top: 200px;
+    }
+
+    .visitslider .slick-arrow.slick-next {
+        right: 50px;
+    }
+
+    .visitslider .slick-arrow.slick-prev {
+        left: 50px;
+    }
+
+    .genslider .mainslider__slide {
+        height: 500px;
+    }
+
+    .scrollbar {
+        width: 722px;
+    }
+
+    .celebrity-luxury {
+        margin-top: -380px;
+    }
+
+    .ournews {
+        padding: 70px 0 150px 0;
+    }
+
+    .footer__nav {
+        padding: 0 20px;
+    }
+
+    .footer__nav ul li {
+        margin-right: 18px;
+    }
+
+    .footer__social ul {
+        max-width: 155px;
+    }
+
+    .footer__up a {
+        width: 45px;
+        height: 45px;
+    }
+
+    .footer__up a svg {
+        width: 16px;
+    }
+
+
+
+
+
+
+
+    .header__phone a,
+    .header__nav ul li a,
+    .header__language>span,
+    .footer__nav ul li a,
+    .footer__social .phone,
+    .footer__botttext p {
+        font-size: 14px;
+    }
+
+    .scrslidebox .textbox p {
+        font-size: 16px;
+    }
+
+    .akcii {
+        padding: 150px 0;
+    }
+
+    .genslsect-container {
+        padding-top: 70px;
+    }
+
+    .ourcenters {
+        padding-bottom: 70px;
+    }
+
+    .reviews,
+    .contacts-section {
+        padding: 70px 0;
+    }
+
+}
+
+@media(max-width:1199.8px) {
+
+    .header__phone,
+    .header__nav {
+        display: none;
+    }
+
+    header.header {
+        height: 70px;
+    }
+
+    main {
+        padding-top: 70px;
+    }
+
+    .burgerbtn {
+        display: flex;
+        width: 70px;
+        height: 70px;
+        background-color: #C79C42;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .burgerbtn img {
+        width: 32px;
+    }
+
+    .header__wrap {
+        justify-content: space-between;
+    }
+
+    .visitslider .mainslider__slide,
+    .mainscreen {
+        height: 800px;
+    }
+
+    .mousescroll {
+        display: none;
+    }
+
+    .celebrity-luxury {
+        margin-top: -300px;
+    }
+
+    .visitslider .slick-arrow {
+        width: 45px;
+        height: 20px;
+    }
+
+    .frame ul li {
+        width: 280px;
+    }
+
+    .scrslidebox .picbox {
+        height: 245px;
+    }
+
+    .akcii__date {
+        left: 15px;
+        top: 15px;
+    }
+
+    .scrslidebox .textbox {
+        height: 80px;
+    }
+
+    .scrollbar {
+        width: 600px;
+    }
+
+    .section-subtitle {
+        padding-left: 30px;
+    }
+
+    .section-subtitle:before {
+        width: 17px;
+    }
+
+    .scrslidebox .back {
+        padding: 15px 15px 20px 15px;
+    }
+
+    .scrslidebox .back .akcii__date {
+        margin-bottom: 20px;
+    }
+
+    .scrslidebox .back .title {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .scrslidebox .back .descr {
+        height: 85px;
+    }
+
+    .reviews .review-box .quotepic {
+        width: 40px;
+    }
+
+    .review-userbox .review-userbox__pic {
+        height: 45px;
+        max-width: 45px;
+    }
+
+    .review-userbox__descr .name {
+        font-size: 14px;
+        line-height: normal;
+        min-height: 38px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .reviews .review-text {
+        height: 155px;
+    }
+
+    .ournews .scrslidebox .textbox {
+        height: 80px;
+    }
+
+    .ournews .scrslidebox .picbox {
+        height: 250px;
+    }
+
+    .ournews .scrslidebox .back {
+        padding: 15px 32px 20px 20px;
+    }
+
+    .ournews .scrslidebox .back .akcii__date {
+        margin-bottom: 20px;
+    }
+
+    .ournews .scrslidebox .back .descr {
+        height: 110px;
+    }
+
+
+
+
+
+
+
+    .section-title,
+    .contacts-section .title {
+        font-size: 24px;
+    }
+
+    .akcii__date span {
+        font-size: 22px;
+    }
+
+    .scrslidebox .back .descr p,
+    .scrslidebox .back a,
+    .reviews .review-text p {
+
+        font-size: 14px;
+    }
+
+    .section-subtitle {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width:1024.8px) {
+
+    .slcont {
+        width: 650px;
+        height: 500px;
+    }
+
+    .slider-centermode .slick-center .slcont .picbox,
+    .slider-centermode .slick-slide[aria-hidden="true"]:not([tabindex="-1"])+.slick-cloned[aria-hidden="true"] .slcont .picbox {
+        width: 620px;
+        height: 380px;
+    }
+
+    .slider-centermode__slide .textbox {
+        width: 570px;
+        height: 380px;
+    }
+
+    .textbox__cont a {
+        font-size: 14px;
+    }
+
+    .textbox__cont a {
+        width: 160px;
+        height: 40px;
+    }
+
+    .textbox__cont .address {
+        width: calc(100% - 160px);
+    }
+
+    .textbox__cont .address .addr {
+        padding-left: 20px;
+    }
+
+    .ourcenters .slick-arrow.slick-next {
+        right: 9%;
+    }
+
+    .ourcenters .slick-arrow.slick-prev {
+        left: 9%;
+    }
+
+
+
+
+
+
+
+
+    .textbox__cont .address .addr {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:991.8px) {
+    .mainscreen__textsect h1 {
+        font-size: 42px;
+    }
+
+    .genslider .mainslider:after {
+        width: 180px;
+        height: 50px;
+    }
+
+    .genslider .celebrname {
+        display: none;
+    }
+
+    .genslider .mainslider .slick-arrow {
+        width: 90px;
+        height: 50px;
+    }
+
+    .genslider .mainslider .slick-prev.slick-arrow {
+        right: 90px;
+    }
+
+    .genslider .mainslider .slick-next.slick-arrow {
+        background-position: center left 20px;
+    }
+
+    .genslider .mainslider .slick-prev.slick-arrow {
+        background-position: center right 20px;
+    }
+
+    .genslider .pagingInfo {
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .genslider .mainslider__slide {
+        height: 400px;
+    }
+
+    .scrollbar {
+        width: 385px;
+    }
+
+    .akcii {
+        padding-bottom: 100px;
+    }
+
+    .akcii .custombtn {
+        max-width: 100%;
+    }
+
+    .ourcenters .subtitle span {
+        padding-left: 30px;
+    }
+
+    .ourcenters .subtitle span:after {
+        width: 20px;
+    }
+
+    .ourcenters .subtitle,
+    .ournews .subtitle {
+        margin-bottom: 10px;
+    }
+
+    .ourcenters .title,
+    .ournews .title {
+        margin-bottom: 20px;
+        font-size: 32px;
+    }
+
+    .ourcenters .descr {
+        margin-bottom: 40px;
+    }
+
+    .textbox__cont {
+        padding: 0 30px 10px;
+    }
+
+    .textbox__cont .address {
+        width: calc(100% - 220px);
+    }
+
+    .reviews .row,
+    .akcii .row {
+        flex-wrap: wrap;
+    }
+
+    .sectleft-descr,
+    .akcii .section-title {
+        max-width: 100%;
+    }
+
+    .reviews .col-lg-8,
+    .akcii .col-lg-8 {
+        max-width: 100% !important;
+    }
+
+    .reviews .scrollbar {
+        width: 100%;
+    }
+
+    .frame ul li {
+        padding: 0 5px;
+        width: 235px;
+    }
+
+    .scroll-slider {
+        margin-top: 50px;
+    }
+
+    .scrollbar {
+        width: 100%;
+    }
+
+    .section-infosect .descr {
+        margin-bottom: 30px;
+    }
+
+    .sectleft-descr {
+        margin-bottom: 30px;
+    }
+
+    .reviews .sectleft-descr {
+        margin-bottom: 0;
+    }
+
+    .ournews {
+        padding: 50px 0 130px 0;
+    }
+
+    .ournews .descr {
+        margin-bottom: 40px;
+    }
+
+    .ourcenters .subtitle span, .ournews .subtitle span {
+        padding-left: 30px;
+    }
+
+    .ournews .subtitle span:after {
+        width: 20px;
+    }
+
+    .contacts-section input {
+        margin-bottom: 25px;
+        height: 40px;
+    }
+    .contacts-section textarea {
+        margin-bottom: 40px;
+    }
+
+    .contacts-section button {
+        font-size: 14px;
+        width: 200px;
+        height: 44px;
+    }
+
+    .footer__logo {
+        max-width: 130px;
+    }
+
+    .footer-wrapper {
+        padding: 30px 20px;
+    }
+
+    .footer__nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .footer__social .phone {
+        margin-bottom: 10px;
+    }
+
+    .footer__social {
+        max-width: 190px;
+    }
+
+    .footer__nav {
+        padding-left: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .section-title,
+    .contacts-section .title {
+        font-size: 30px;
+    }
+
+    .mainscreen__textsect p {
+        font-size: 16px;
+    }
+
+
+
+
+    .celebrity-luxury .spaceleft-container,
+    .genslider .mainslider,
+    .genslsect-container {
+        padding-top: 50px;
+    }
+
+    .ourcenters {
+        padding-bottom: 50px;
+    }
+
+    .celebrity-luxury .spaceleft-container,
+    .genslsect-container {
+        padding-right: 30px;
+    }
+
+
+
+    .genslider {
+        margin-top: 50px;
+    }
+
+    .section-title,
+    .contacts-section .title,
+    .akcii .section-title {
+        margin-bottom: 20px;
+    }
+
+    .reviews,
+    .contacts-section {
+        padding: 50px 0;
+    }
+
+}
+
+@media(max-width:767.8px) {
+    .container {
+        max-width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .celebrity-luxury {
+        margin-top: 0;
+    }
+    
+}
