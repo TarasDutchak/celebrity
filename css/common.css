@@ -1421,7 +1421,9 @@ main {
     display: none;
 }
 
-
+.ourcenters .slick-arrow {
+    z-index: 2;
+}
 
 
 
