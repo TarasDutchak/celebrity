@@ -1415,7 +1415,11 @@ main {
     display: none;
 }
 
-
+.mobclose,
+.header__language-mob,
+.mobmenupic {
+    display: none;
+}
 
 
 

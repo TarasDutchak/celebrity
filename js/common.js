@@ -44,6 +44,9 @@ $(document).ready(function () {
         $('.spaceleft-container, .genslsect-container').css('padding-left', paddingContainer);
     });
 
+
+
+
     // slider
     var $status = $('.genslider .pagingInfo');
     var $slickElement = $('.genslider .mainslider');
@@ -129,6 +132,14 @@ $(document).ready(function () {
               slidesToScroll: 1,
               centerPadding: '16%',
             }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              centerPadding: '0',
+            }
           }
         ]
       });
@@ -174,7 +185,14 @@ $(document).ready(function () {
                 slidesToShow: 2.5,
                 slidesToScroll: 1,
               }
-            }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                  slidesToShow: 1.5,
+                  slidesToScroll: 1,
+                }
+              }
           ]
         
       });
@@ -207,9 +225,14 @@ $(document).ready(function () {
     });
 
 
+    // BURGER MENU
+    $('.burgerbtn').click(function(){
+        $('.header__nav').addClass('show');
+    });
 
-
-
+    $('.mobclose').click(function(){
+        $('.header__nav').removeClass('show');
+    });
 
 
 
