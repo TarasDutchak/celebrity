@@ -235,8 +235,11 @@ $(document).ready(function () {
     });
 
 
-
-
+    // SHOW REVIEWS FORM
+    $('.reviewwrite__topsect .custombtn').click(function(){
+        $(this).hide();
+        $('.reviewwrite__bottsect').slideDown();
+    });
 
 
     

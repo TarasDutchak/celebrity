@@ -3,7 +3,34 @@
         max-width: 1350px;
     }
 }
+@media(max-width:1800.8px) {
+    .header__nav ul li {
+        margin-right: 30px;
+    }
 
+    .footer__nav ul li {
+        margin-right: 25px;
+    }
+}
+@media(max-width:1700.8px) {
+    .header__nav ul li a,
+    .footer__nav ul li a,
+    .header__language>span {
+        font-size: 14px;
+    }
+
+    .header__nav ul li {
+        margin-right: 25px;
+    }
+
+    .header__nav {
+        padding: 0 30px;
+    }
+
+    .footer__nav ul li {
+        margin-right: 20px;
+    }
+}
 @media(max-width:1600.8px) {
     header.header {
         height: 80px;
@@ -26,9 +53,7 @@
         padding-top: 80px;
     }
 
-    .header__nav ul li {
-        margin-right: 40px;
-    }
+   
 
     .header__language ul {
         top: 50px;
@@ -331,9 +356,20 @@
         width: 16px;
     }
 
+    .header__nav {
+        width: calc(100% - 440px);
+    }
 
+    .header__nav nav {
+        width: calc(100% - 100px);
+    }
+    .reviewwrite__topsect .title {
+        font-size: 22px;
+    }
 
-
+    .reviewwrite__bottsect>p.title {
+        margin-bottom: 70px;
+    }
 
 
 
@@ -572,6 +608,11 @@
         animation-iteration-count: infinite;
     }
 
+    .header__nav nav {
+        width: 100%;
+        position: relative;
+        z-index: 3;
+    }
 
 
 
@@ -645,7 +686,10 @@
         padding-bottom: 50px;
     }
 
-
+    .rate:not(:checked)>label {
+        width: 45px;
+        height: 45px;
+    }
 
 
 
@@ -874,7 +918,21 @@
         font-size: 18px;
     }
 
+    .reviewwrite__bottsect>p.title {
+        margin-bottom: 50px;
+    }
 
+    .reviewwrite__bottsect form input, .reviewwrite__bottsect form textarea {
+        height: 50px;
+        margin-bottom: 35px;
+    }
+
+    .reviewwrite__bottsect form .justify-content-end {
+        justify-content: flex-start !important;
+    }
+    .ratebtn {
+        margin-bottom: 30px;
+    }
 
 
 
@@ -1159,7 +1217,37 @@
     .header__nav ul li {
         margin-bottom: 15px;
     }
+    .header__nav nav {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
+    .reviewwrite {
+        padding-top: 40px;
+    }
+
+    .reviewwrite__topsect .title {
+        margin-bottom: 15px;
+    }
+
+    .ratebtn {
+        display: block;
+    }
+
+    .ratebtn p {
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .rateb {
+        justify-content: flex-end;
+        display: flex;
+    }
+
+    .reviewwrite__bottsect form input, .reviewwrite__bottsect form textarea {
+        margin-bottom: 20px;
+    }
 
 
 
