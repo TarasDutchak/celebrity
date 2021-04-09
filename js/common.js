@@ -18,7 +18,10 @@ $(document).ready(function () {
     $('.visitslider').slick({
         infinite: true,
         speed: 1000,
+        autoplaySpeed: 5000,
         slidesToShow: 1,
+        pauseOnHover: false,
+        autoplay: true,
         cssEase: 'ease-out',
         prevArrow: '<button type="button" class="slick-prev"></button>',
         nextArrow: '<button type="button" class="slick-next"></button>',
