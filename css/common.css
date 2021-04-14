@@ -1033,11 +1033,6 @@ main {
     color: #283E39;
 }
 
-.review-userbox {
-    display: flex;
-    align-items: center;
-}
-
 .review-userbox .review-userbox__pic {
     height: 54px;
     border-radius: 50%;
@@ -1046,9 +1041,6 @@ main {
     width: 100%;
 }
 
-.review-userbox__descr {
-    padding-left: 15px;
-}
 
 .review-userbox__descr .name {
     margin-bottom: 4px;
