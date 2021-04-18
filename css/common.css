@@ -1522,10 +1522,11 @@ a:hover .akcii-icon path {
 .ratebtn {
     display: flex;
     align-items: center;
-    
+
 }
+
 .rateb {
-    direction: rtl; 
+    direction: rtl;
 }
 
 
@@ -1590,6 +1591,7 @@ a:hover .akcii-icon path {
     letter-spacing: normal;
     text-align: center;
 }
+
 .services-subtitle span {
     position: relative;
     padding-left: 50px;
@@ -1682,6 +1684,265 @@ a:hover .akcii-icon path {
     font-weight: 500;
     width: calc(100% - 230px);
 }
+
+.breadcrumbs {
+    padding-top: 70px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.breadcrumbs ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumbs ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 52px;
+    position: relative;
+    color: #777777;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.breadcrumbs ul li:last-child {
+    margin-right: 0;
+}
+
+.breadcrumbs ul li a {
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #C79C42;
+}
+
+.breadcrumbs ul li:after {
+    content: '/';
+    display: inline-block;
+    position: absolute;
+    right: -30px;
+    top: 0;
+}
+
+.breadcrumbs ul li:last-child:after {
+    display: none;
+}
+
+/* PRICE */
+
+.priceboxes {
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricebox {
+    position: relative;
+    width: 498px;
+    height: 410px;
+    margin-bottom: 60px;
+}
+
+.pricebox_pic {
+    width: calc(100% - 20px);
+    height: calc(100% - 25px);
+}
+
+.pricebox_pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.pricebox__descr {
+    height: 123px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: calc(100% - 20px);
+    background-image: url(../img/green-bg.png);
+    display: flex;
+    align-items: center;
+    padding: 5px 24px 5px 18px;
+}
+
+.precebox__btn a {
+    width: 100%;
+    margin: 0;
+}
+
+.precebox__title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    font-family: 'Lora', serif;
+    margin: 0;
+    width: calc(100% - 180px);
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+.precebox__btn {
+    width: 180px;
+}
+
+.services.price {
+    background: url(../img/servbg1.png);
+    background-repeat: no-repeat;
+    background-position: center 210px;
+    background-size: auto, 100%;
+}
+
+/* ABOUT US */
+
+.abus-content {
+    position: relative;
+    z-index: 2;
+    padding: 70px 0 110px 0;
+}
+
+main.greenbg:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 470px;
+    background-image: url(../img/green-bg.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+main.greenbg .breadcrumbs ul li {
+    color: #D6D6D6;
+}
+
+.abus__title {
+    color: #fff;
+}
+
+.services__title {
+    font-family: 'Lora', serif;
+
+}
+
+.videobox {
+    height: 694px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.videobox video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+#play_button {
+    background-color: transparent;
+    width: 140px;
+    height: 140px;
+    border: none;
+    outline: none;
+    z-index: 2;
+    background-image: url('../img/icons/play.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0s;
+}
+
+#play_button.pause {
+    background-image: url('../img/icons/pause.svg');
+    background-size: 23px;
+    width: 40px;
+    height: 40px;
+    transform: none;
+    left: 20px;
+    bottom: 20px;
+    top: initial;
+}
+
+.abus-content__descrit {
+    max-width: 870px;
+    margin-bottom: 70px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #283E39;
+    font-style: italic;
+
+}
+
+.abus-content__descrit p:last-child,
+.abus-content_descr p:last-child {
+    margin-bottom: 0;
+}
+
+.abus-content_descr {
+    color: #777777;
+}
+
+.abadvantages {
+    background: #F6F5F0;
+    padding: 115px 0 250px;
+}
+
+.abadvantages h3 {
+    max-width: 310px;
+    margin-bottom: 32px;
+}
+
+.advantbox {
+    display: flex;
+    margin-bottom: 85px;
+}
+
+.advantbox img {
+    width: 100%;
+    max-width: 115px;
+}
+
+.advantbox__descrbox {
+    width: 100%;
+    max-width: calc(100% - 115px);
+    padding-left: 53px;
+}
+
+.advantbox:last-child {
+    margin-bottom: 0;
+}
+
+.advantbox__descrbox .title {
+    font-family: 'Lora', serif;
+    margin-bottom: 22px;
+    font-size: 26px;
+    line-height: 150%;
+    color: #283E39;
+}
+
+.advantbox__descrbox .descr {
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: italic;
+    color: #777777;
+}
+
+
+
+
+
+
+
 
 
 

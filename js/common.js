@@ -127,51 +127,50 @@ $(document).ready(function () {
         nextArrow: '<button type="button" class="slick-next"></button>',
         speed: 500,
         centerPadding: '20%',
-        responsive: [
-          {
-            breakpoint: 1025,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              centerPadding: '16%',
+        responsive: [{
+                breakpoint: 1025,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '16%',
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '0',
+                }
             }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              centerPadding: '0',
-            }
-          }
         ]
-      });
+    });
 
     //   Reviews
-     // SLY slider
-     var $frame = $('#basic1');
-     var $slidee = $frame.children('ul').eq(0);
-     var $wrap = $frame.parent();
- 
-     $frame.sly({
-         horizontal: 1,
-         itemNav: 'basic',
-         smart: 1,
-         activateOn: 'click',
-         mouseDragging: 1,
-         touchDragging: 1,
-         releaseSwing: 1,
-         startAt: 0,
-         scrollBar: $wrap.find('.scrollbar'),
-         // scrollBy: 1,
-         activatePageOn: 'click',
-         speed: 300,
-         elasticBounds: 1,
-         dragHandle: 1,
-         dynamicHandle: 1,
-         clickBar: 1,
-     });
-     
+    // SLY slider
+    var $frame = $('#basic1');
+    var $slidee = $frame.children('ul').eq(0);
+    var $wrap = $frame.parent();
+
+    $frame.sly({
+        horizontal: 1,
+        itemNav: 'basic',
+        smart: 1,
+        activateOn: 'click',
+        mouseDragging: 1,
+        touchDragging: 1,
+        releaseSwing: 1,
+        startAt: 0,
+        scrollBar: $wrap.find('.scrollbar'),
+        // scrollBy: 1,
+        activatePageOn: 'click',
+        speed: 300,
+        elasticBounds: 1,
+        dragHandle: 1,
+        dynamicHandle: 1,
+        clickBar: 1,
+    });
+
 
     //  slider news
     $('.ournews-slidersect').slick({
@@ -181,33 +180,34 @@ $(document).ready(function () {
         arrows: false,
         speed: 500,
         infinite: false,
-        responsive: [
-            {
-              breakpoint: 992,
-              settings: {
-                slidesToShow: 2.5,
-                slidesToScroll: 1,
-              }
+        responsive: [{
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2.5,
+                    slidesToScroll: 1,
+                }
             },
             {
                 breakpoint: 576,
                 settings: {
-                  slidesToShow: 1.5,
-                  slidesToScroll: 1,
+                    slidesToShow: 1.5,
+                    slidesToScroll: 1,
                 }
-              }
-          ]
-        
-      });
+            }
+        ]
+
+    });
 
     //   to top
-    
-    $(function() {
-        $('.footer__up a').click(function() {
-            $('html, body').animate({scrollTop: 0},1500);
+
+    $(function () {
+        $('.footer__up a').click(function () {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 1500);
             return false;
         })
-    
+
     });
 
 
@@ -223,28 +223,53 @@ $(document).ready(function () {
         var slLeftWidth = $('.akcii .col-lg-8').width();
         $('.akcii .col-lg-8, .reviews .col-lg-8').css('max-width', slLeftWidth + paddingContainer + 25);
 
-       
-        
+
+
     });
 
 
     // BURGER MENU
-    $('.burgerbtn').click(function(){
+    $('.burgerbtn').click(function () {
         $('.header__nav').addClass('show');
     });
 
-    $('.mobclose').click(function(){
+    $('.mobclose').click(function () {
         $('.header__nav').removeClass('show');
     });
 
 
     // SHOW REVIEWS FORM
-    $('.reviewwrite__topsect .custombtn').click(function(){
+    $('.reviewwrite__topsect .custombtn').click(function () {
         $(this).hide();
         $('.reviewwrite__bottsect').slideDown();
     });
 
 
+
     
+    // VIDEO
+   
+    if ($('*').is('#play_button')) {
+        var playButton = document.getElementById("play_button");
+        // Event listener for the play/pause button
+        playButton.addEventListener("click", function () {
+            if (video.paused == true) {
+                // Play the video
+                video.play();
+    
+                // Update the button text to 'Pause'
+                // playButton.innerHTML = "Pause";
+                $(playButton).addClass('pause');
+            } else {
+                // Pause the video
+                video.pause();
+    
+                // Update the button text to 'Play'
+                // playButton.innerHTML = "Play";
+                $(playButton).removeClass('pause');
+            }
+        });
+    }
+
 
 });

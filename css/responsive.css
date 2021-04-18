@@ -3,6 +3,7 @@
         max-width: 1350px;
     }
 }
+
 @media(max-width:1800.8px) {
     .header__nav ul li {
         margin-right: 30px;
@@ -11,9 +12,18 @@
     .footer__nav ul li {
         margin-right: 25px;
     }
+
+    .pricebox {
+        width: 460px;
+        height: 385px;
+    }
+
+
+
 }
 
 @media(max-width:1700.8px) {
+
     .header__nav ul li a,
     .footer__nav ul li a,
     .header__language>span {
@@ -30,6 +40,11 @@
 
     .footer__nav ul li {
         margin-right: 20px;
+    }
+
+    .pricebox {
+        width: 440px;
+        height: 385px;
     }
 }
 
@@ -55,7 +70,7 @@
         padding-top: 80px;
     }
 
-   
+
 
     .header__language ul {
         top: 50px;
@@ -247,6 +262,70 @@
         margin-bottom: 100px;
     }
 
+    .pricebox {
+        width: 400px;
+        height: 330px;
+        margin-bottom: 40px;
+    }
+
+    .precebox__title {
+        font-size: 18px;
+    }
+
+    .pricebox__descr {
+        height: 100px;
+    }
+
+    .precebox__btn {
+        width: 150px;
+    }
+
+    .precebox__title {
+        width: calc(100% - 150px);
+    }
+
+    .videobox {
+        height: 500px;
+    }
+
+    #play_button {
+        width: 100px;
+        height: 100px;
+        background-size: 32px;
+    }
+
+    .abus-content {
+        padding-bottom: 70px;
+    }
+
+    .advantbox img {
+        max-width: 100px;
+    }
+
+    .advantbox__descrbox {
+        padding-left: 30px;
+    }
+
+    .advantbox__descrbox .title {
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+
+    .advantbox__descrbox .descr {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .abadvantages {
+        padding: 70px 0 150px;
+    }
+
+
+
+
+
+
+
 
 
 
@@ -292,11 +371,20 @@
     }
 
     .services__title,
-    .services__descr {
+    .services__descr,
+    .videobox,
+    .abus-content__descrit,
+    .advantbox {
         margin-bottom: 50px;
     }
 
 
+}
+
+@media(max-width:1500.8px) {
+    .pricebox {
+        width: 31%;
+    }
 }
 
 @media(max-width:1400.8px) {
@@ -386,6 +474,7 @@
     .header__nav nav {
         width: calc(100% - 100px);
     }
+
     .reviewwrite__topsect .title {
         font-size: 22px;
     }
@@ -393,6 +482,27 @@
     .reviewwrite__bottsect>p.title {
         margin-bottom: 70px;
     }
+
+    .priceboxes {
+        padding: 0 40px;
+    }
+
+    .precebox__btn {
+        width: 120px;
+    }
+
+    .precebox__title {
+        width: calc(100% - 120px);
+    }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -616,6 +726,7 @@
         position: relative;
         z-index: 2;
     }
+
     .header__language-mob ul li {
         display: inline-block;
         margin: 0 10px;
@@ -642,7 +753,7 @@
     .header__phone {
         width: 290px;
     }
-    
+
     .header__phone a {
         border-right: 2px solid #3b504b;
     }
@@ -673,7 +784,7 @@
     .bottservinfo {
         min-height: 54px;
     }
-    
+
     .servicebox {
         margin-bottom: 50px;
     }
@@ -681,6 +792,26 @@
     .services {
         background-position: center 250px, 0 650px;
     }
+
+    .priceboxes {
+        flex-wrap: wrap;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .pricebox {
+        width: 100%;
+        height: 400px;
+    }
+
+    .videobox {
+        height: 400px;
+    }
+
+
+
+
+
 
 
 
@@ -692,7 +823,8 @@
         font-size: 24px;
     }
 
-    .akcii__date span {
+    .akcii__date span,
+    .precebox__title {
         font-size: 22px;
     }
 
@@ -707,7 +839,7 @@
         margin-bottom: 20px;
     }
 
-    
+
 }
 
 @media(max-width:1024.8px) {
@@ -995,7 +1127,8 @@
         margin-bottom: 50px;
     }
 
-    .reviewwrite__bottsect form input, .reviewwrite__bottsect form textarea {
+    .reviewwrite__bottsect form input,
+    .reviewwrite__bottsect form textarea {
         height: 50px;
         margin-bottom: 35px;
     }
@@ -1003,6 +1136,7 @@
     .reviewwrite__bottsect form .justify-content-end {
         justify-content: flex-start !important;
     }
+
     .ratebtn {
         margin-bottom: 30px;
     }
@@ -1021,13 +1155,38 @@
         background-size: 300px;
         background-position: center top 200px;
     }
-    
 
+    .breadcrumbs {
+        padding-top: 40px;
+    }
 
+    .services {
+        padding-top: 40px;
+    }
 
+    .priceboxes {
+        max-width: 720px;
+    }
 
+    .pricebox {
+        height: 350px;
+    }
 
+    .services.price .services__descr {
+        margin-bottom: 60px;
+    }
 
+    .abus-content {
+        padding-top: 40px;
+    }
+
+    .abadvantages {
+        padding: 70px 0;
+    }
+
+    .abus-content__descrit {
+        font-size: 16px;
+    }
 
 
 
@@ -1082,6 +1241,7 @@
     .services__descr {
         margin-bottom: 30px;
     }
+
     .reviews,
     .contacts-section {
         padding: 50px 0;
@@ -1114,7 +1274,7 @@
         line-height: normal;
     }
 
-    .header__logo{
+    .header__logo {
         width: 160px;
     }
 
@@ -1249,9 +1409,43 @@
         display: none;
     }
 
+    .priceboxes {
+        max-width: 100%;
+        padding: 0 15px;
+    }
 
+    .pricebox_pic {
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+    }
 
+    .pricebox__descr {
+        width: calc(100% - 10px);
+    }
 
+    .precebox__title {
+        font-size: 18px;
+    }
+
+    .pricebox {
+        height: 300px;
+    }
+
+    .services.price {
+        padding-bottom: 30px;
+    }
+
+    .precebox__btn {
+        width: 100px;
+    }
+
+    .precebox__title {
+        width: calc(100% - 100px);
+    }
+
+    .videobox {
+        height: 300px;
+    }
 
 
 
@@ -1332,6 +1526,7 @@
     .header__nav ul li {
         margin-bottom: 15px;
     }
+
     .header__nav nav {
         padding-left: 0;
         padding-right: 0;
@@ -1360,7 +1555,8 @@
         display: flex;
     }
 
-    .reviewwrite__bottsect form input, .reviewwrite__bottsect form textarea {
+    .reviewwrite__bottsect form input,
+    .reviewwrite__bottsect form textarea {
         margin-bottom: 20px;
     }
 
@@ -1406,6 +1602,42 @@
         font-size: 16px;
     }
 
+    .breadcrumbs {
+        padding-top: 20px;
+    }
+
+    .breadcrumbs ul li {
+        margin-right: 30px;
+    }
+
+    .breadcrumbs ul li:after {
+        right: -20px;
+    }
+
+    .services {
+        padding-top: 30px;
+    }
+
+    .videobox {
+        height: 250px;
+        margin-bottom: 30px;
+    }
+
+    .advantbox {
+        flex-wrap: wrap;
+    }
+
+    .advantbox__descrbox {
+        max-width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .advantbox img {
+        margin: 0 auto 20px;
+    }
+
+
 
 
 
@@ -1419,18 +1651,23 @@
 
     .akcii,
     .ourcenters,
-    .ournews {
+    .ournews,
+    .abus-content,
+    .abadvantages {
         padding: 50px 0;
     }
 
     .section-title,
     .contacts-section .title,
-    .ourcenters .title, .ournews .title {
+    .ourcenters .title,
+    .ournews .title {
         font-size: 26px;
     }
+
     .services__title {
         font-size: 32px;
     }
+
     .mainscreen__textsect p {
         font-size: 14px;
     }
@@ -1457,6 +1694,7 @@
     .header__phone {
         width: 120px;
     }
+
     .burgerbtn {
         max-width: 60px;
     }
