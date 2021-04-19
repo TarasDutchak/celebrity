@@ -495,6 +495,21 @@
         width: calc(100% - 120px);
     }
 
+    .discount .scrslidebox .picbox {
+        height: 275px;
+    }
+
+    .discount .scrslidebox .back .akcii__date {
+        margin-bottom: 25px;
+    }
+
+    .discount .scrslidebox .back .descr {
+        height: 92px;
+    }
+
+    .pagination ul li {
+        margin: 0 10px;
+    }
 
 
 
@@ -503,6 +518,14 @@
 
 
 
+
+
+
+
+
+
+
+    
 
 
 
@@ -808,7 +831,9 @@
         height: 400px;
     }
 
-
+    .discount-boxes .scrslidebox {
+        margin-bottom: 50px;
+    }
 
 
 
@@ -1188,11 +1213,31 @@
         font-size: 16px;
     }
 
+    .discount-boxes .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 
+    .discount .services__descr {
+        margin-bottom: 50px;
+    }
 
+    .pagination ul li {
+        margin: 0px 5px;
+    }
 
+    .pagination ul li:first-child {
+        margin-right: 30px;
+    }
 
+    .pagination ul li:last-child {
+        margin-left: 30px;
+    }
 
+    .discount {
+        padding: 40px 0 50px;
+    }
 
 
 
@@ -1640,6 +1685,44 @@
     .pricebox__descr {
         height: 90px;
     }
+
+    .discount-boxes .col-md-4 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .discount {
+        background-image: none;
+    }
+    
+    .pagination ul li a {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    .pagination ul li a img {
+        max-width: 100%;
+    }
+
+    .pagination ul li:last-child {
+        margin-left: 10px;
+    }
+
+    .pagination ul li:first-child {
+        margin-right: 10px;
+    }
+
+    .pagination ul li {
+        margin: 0px 2px;
+    }
+
+
+
+
+
+
 
 
 

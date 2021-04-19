@@ -1938,6 +1938,83 @@ main.greenbg .breadcrumbs ul li {
 }
 
 
+/* DISCOUNT */
+.discount {
+    padding: 70px 0 100px;
+    background-image: url('../img/discountbg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 530px;
+}
+
+.services__title img {
+    margin-left: 10px;
+    margin-top: -12px;
+}
+
+.discount-boxes .scrslidebox {
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.pagination ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.pagination ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.pagination ul li a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Lora', serif;
+    color: #07212F;
+}
+
+.pagination ul li.active a {
+    border: 1px solid #D3AB75;
+    color: #D3AB75;
+}
+
+.pagination ul li a:hover {
+    text-decoration: none;
+    color: #D3AB75;
+}
+
+.pagination ul li:first-child {
+    margin-right: 70px;
+}
+
+.pagination ul li:last-child {
+    margin-left: 70px;
+}
+
+.pagination ul li.disabled {
+    opacity: .3;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1954,4 +2031,3 @@ main.greenbg .breadcrumbs ul li {
 
 /* font-family: 'Lora', serif;
 font-family: 'Nunito', sans-serif; */
-
