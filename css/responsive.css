@@ -1578,7 +1578,7 @@
     }
 
     .servicebox__descr {
-        height: 350px;
+        height: 335px;
     }
 
     .servicebox__pic {
@@ -1637,6 +1637,9 @@
         margin: 0 auto 20px;
     }
 
+    .pricebox__descr {
+        height: 90px;
+    }
 
 
 
