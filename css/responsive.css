@@ -46,6 +46,10 @@
         width: 440px;
         height: 385px;
     }
+
+    .greypagebg:after {
+        height: 800px;
+    }
 }
 
 @media(max-width:1600.8px) {
@@ -320,8 +324,59 @@
         padding: 70px 0 150px;
     }
 
+    .certificates h1 {
+        margin-bottom: 50px;
+    }
 
+    .certificates-slider:after {
+        width: 240px;
+        height: 60px;
+    }
 
+    .certificates-slider .slick-arrow {
+        height: 60px;
+    }
+
+    .certificates-slider .slick-arrow {
+        width: 106px;
+    }
+
+    .certificates-slider .slick-next.slick-arrow {
+        background-position: center left 15px;
+    }
+
+    .certificates-slider .slick-prev.slick-arrow {
+        background-position: center right 15px;
+    }
+
+    .certificates-slidersect {
+        padding-bottom: 80px;
+    }
+
+    .certificate__form.reviewwrite__bottsect .title {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .certificates {
+        padding-bottom: 60px;
+    }
+
+    .certificates-slider:after {
+        right: 100px;
+    }
+
+    .certificates-slider .slick-next.slick-arrow {
+        right: 100px;
+    }
+
+    .certificates-slider .slick-prev.slick-arrow {
+        right: 233px;
+    }
+
+    .certificates-slidersect .pagingInfo {
+        left: 100px;
+    }
 
 
 
@@ -525,7 +580,7 @@
 
 
 
-    
+
 
 
 
@@ -1239,10 +1294,6 @@
         padding: 40px 0 50px;
     }
 
-
-
-
-
     .section-title,
     .contacts-section .title {
         font-size: 30px;
@@ -1250,6 +1301,42 @@
 
     .mainscreen__textsect p {
         font-size: 16px;
+    }
+
+    .certificates-slider:after {
+        width: 180px;
+        height: 50px;
+    }
+
+    .certificates-slider .slick-arrow {
+        height: 50px;
+    }
+
+    .certificates-slider:after {
+        right: 50px;
+    }
+
+
+    .certificates-slidersect .pagingInfo {
+        left: 50px;
+        font-size: 16px;
+        height: 50px;
+    }
+
+    .certificates-slider .slick-next.slick-arrow {
+        right: 50px;
+    }
+
+    .certificates-slider .slick-arrow {
+        width: 90px;
+    }
+
+    .certificates-slider .slick-prev.slick-arrow {
+        right: 139px;
+    }
+
+    .certificates h1 {
+        margin-bottom: 40px;
     }
 
 
@@ -1695,7 +1782,7 @@
     .discount {
         background-image: none;
     }
-    
+
     .pagination ul li a {
         width: 35px;
         height: 35px;
@@ -1718,12 +1805,44 @@
         margin: 0px 2px;
     }
 
+    .certificates {
+        padding-top: 40px;
+    }
 
+    .greypagebg:after {
+        display: none;
+    }
 
+    .certificates-slider:after {
+        right: 15px;
+    }
 
+    .certificates-slidersect .pagingInfo {
+        left: 15px;
+    }
 
+    .certificates-slider .slick-next.slick-arrow {
+        right: 15px;
+    }
 
+    .certificates-slider .slick-prev.slick-arrow {
+        right: 104px;
+    }
 
+    .certificates-slidersect {
+        padding-bottom: 30px;
+    }
+
+    .certificate__form.reviewwrite__bottsect .title {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .certificate__form.reviewwrite__bottsect .jq-selectbox {
+        margin-bottom: 20px;
+    }
+    .certificate__form.reviewwrite__bottsect {
+        padding-bottom: 50px;
+    }
 
 
 
@@ -1752,6 +1871,10 @@
 
     .services__title {
         font-size: 32px;
+    }
+
+    .services__descr p.title {
+        font-size: 18px;
     }
 
     .mainscreen__textsect p {

@@ -246,9 +246,9 @@ $(document).ready(function () {
 
 
 
-    
+
     // VIDEO
-   
+
     if ($('*').is('#play_button')) {
         var playButton = document.getElementById("play_button");
         // Event listener for the play/pause button
@@ -256,14 +256,14 @@ $(document).ready(function () {
             if (video.paused == true) {
                 // Play the video
                 video.play();
-    
+
                 // Update the button text to 'Pause'
                 // playButton.innerHTML = "Pause";
                 $(playButton).addClass('pause');
             } else {
                 // Pause the video
                 video.pause();
-    
+
                 // Update the button text to 'Play'
                 // playButton.innerHTML = "Play";
                 $(playButton).removeClass('pause');
@@ -271,5 +271,76 @@ $(document).ready(function () {
         });
     }
 
+
+
+    // certificates slider
+
+
+    var $statuscert = $('.certificates-slidersect .pagingInfo');
+    var $slickElementcert = $('.certificates-slider');
+
+    $slickElementcert.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        if (slick.slideCount < 10) {
+            var i = (currentSlide ? currentSlide : 0) + 1;
+            $statuscert.text('0' + i + ' | 0' + slick.slideCount);
+        } else {
+            var i = (currentSlide ? currentSlide : 0) + 1;
+            $statuscert.text(i + ' | ' + slick.slideCount);
+        }
+
+    });
+
+    $slickElementcert.slick({
+        centerMode: true,
+        slidesToShow: 3,
+        dots: false,
+        infinite: true,
+        speed: 2500,
+        prevArrow: '<button type="button" class="slick-prev"></button>',
+        nextArrow: '<button type="button" class="slick-next"></button>',
+        autoplay: true,
+        autoplaySpeed: 4000,
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        speed: 1200,
+        centerPadding: '100px',
+        responsive: [{
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerPadding: '16%',
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '26%',
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '0%',
+                }
+            }
+        ]
+    });
+
+    // mask
+    $('#telnum').inputmask({
+        "mask": "+ 99 /999/ 999-9999",
+        showMaskOnHover: false,
+        showMaskOnFocus: false,
+    });
+
+    //  select styled
+    $(function () {
+        $('select').styler();
+    });
 
 });
