@@ -32,9 +32,9 @@ $(document).ready(function () {
         containerWidth = $('.container').width(),
         paddingContainer = ((windowWidth - containerWidth) / 2)
     // right
-    $('.celebrity-luxury, .genslsect').css('padding-right', paddingContainer)
+    $('.celebrity-luxury, .genslsect, .articlesect__header').css('padding-right', paddingContainer)
     // left
-    $('.spaceleft-container, .genslsect-container, .ournews-slider').css('padding-left', paddingContainer);
+    $('.spaceleft-container, .genslsect-container, .ournews-slider, .articlesect__headercontain').css('padding-left', paddingContainer);
 
 
     $(window).resize(function () {
@@ -42,9 +42,9 @@ $(document).ready(function () {
             containerWidth = $('.container').width(),
             paddingContainer = ((windowWidth - containerWidth) / 2)
         // right
-        $('.celebrity-luxury, .genslsect').css('padding-right', paddingContainer)
+        $('.celebrity-luxury, .genslsect, .articlesect__header').css('padding-right', paddingContainer)
         // left
-        $('.spaceleft-container, .genslsect-container').css('padding-left', paddingContainer);
+        $('.spaceleft-container, .genslsect-container, .articlesect__headercontain').css('padding-left', paddingContainer);
     });
 
 

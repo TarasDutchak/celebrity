@@ -378,6 +378,33 @@
         left: 100px;
     }
 
+    .articlesect__headercontain .date p {
+        padding-left: 35px;
+    }
+
+    .breadcrumbs.toleft {
+        margin-bottom: 70px;
+    }
+
+    .articlesect__headercontain {
+        padding: 40px 20px 60px 0;
+        margin-top: -200px;
+    }
+
+    .articlesect__body ul,
+    .articlesect__body ol {
+        margin-bottom: 45px;
+    }
+
+    .articlesect__body img {
+        margin: 45px 0;
+    }
+
+    .akcii.akcii_article {
+        padding: 150px 0;
+    }
+
+
 
 
 
@@ -397,6 +424,11 @@
         font-size: 18px;
     }
 
+    .breadcrumbs.toleft ul li,
+    .breadcrumbs.toleft ul li a {
+        font-size: 14px;
+    }
+
     .celebrity-luxury .spaceleft-container {
         padding-top: 70px;
     }
@@ -409,14 +441,29 @@
         padding: 100px 0;
     }
 
+    .articlesect__body ul li,
+    .articlesect__body ol li {
+        margin-bottom: 10px;
+    }
+
     .ourcenters .subtitle,
-    .ournews .subtitle {
+    .ournews .subtitle,
+    .articlesect__body p {
         margin-bottom: 20px;
     }
 
     .footer__social .phone,
     .services-subtitle {
         margin-bottom: 30px;
+    }
+
+    .articlesect__body h1,
+    .articlesect__body h2,
+    .articlesect__body h3,
+    .articlesect__body h4,
+    .articlesect__body h5,
+    .articlesect__body h6 {
+        margin-bottom: 40px;
     }
 
     .ourcenters .descr,
@@ -566,7 +613,9 @@
         margin: 0 10px;
     }
 
-
+    .article-mainpic {
+        height: 480px;
+    }
 
 
 
@@ -976,6 +1025,10 @@
         height: 45px;
     }
 
+    .akcii.akcii_article {
+        padding: 100px 0;
+    }
+
 
 
 
@@ -1339,6 +1392,30 @@
         margin-bottom: 40px;
     }
 
+    .articlesect__headercontain .titlesect {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .articlesect__headercontain .date {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .articlesect__headercontain .titlesect h1 {
+        margin-bottom: 20px;
+    }
+
+    .articlesect__headercontain {
+        padding: 40px 20px 40px 0;
+    }
+
+
+
+
+
+
+
 
 
 
@@ -1578,6 +1655,45 @@
     .videobox {
         height: 300px;
     }
+
+    .articlesect__body ul,
+    .articlesect__body ol,
+    .articlesect__body p {
+        max-width: 100%;
+    }
+
+    .mobclose {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 22;
+    }
+
+    .articlesect__body {
+        padding-bottom: 70px;
+    }
+
+    .akcii.akcii_article {
+        padding-top: 70px;
+    }
+
+    .articlesect__body img {
+        padding: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1837,12 +1953,51 @@
         font-size: 22px;
         margin-bottom: 20px;
     }
+
     .certificate__form.reviewwrite__bottsect .jq-selectbox {
         margin-bottom: 20px;
     }
+
     .certificate__form.reviewwrite__bottsect {
         padding-bottom: 50px;
     }
+
+    .articlesect__headercontain .titlesect h1 {
+        line-height: normal;
+        font-size: 32px;
+    }
+
+    .articlesect__headercontain {
+        padding: 30px 20px 30px 0;
+    }
+
+    .breadcrumbs.toleft {
+        margin-bottom: 40px;
+    }
+
+    .articlesect__body h1,
+    .articlesect__body h2,
+    .articlesect__body h3,
+    .articlesect__body h4,
+    .articlesect__body h5,
+    .articlesect__body h6,
+    .articlesect__body ul,
+    .articlesect__body ol {
+        margin-bottom: 30px;
+    }
+
+    .articlesect__body ul, .articlesect__body ol {
+        padding-left: 20px;
+    }
+
+
+
+
+
+
+
+
+
 
 
 
