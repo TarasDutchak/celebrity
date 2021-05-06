@@ -343,4 +343,66 @@ $(document).ready(function () {
         $('select').styler();
     });
 
+    // isotope filter
+    // external js: isotope.pkgd.js
+
+
+    // Init Isotope
+    if ($(".grid").length) {
+        var $grid = $('.grid').isotope({
+            itemSelector: '.grid-item',
+            percentPosition: true,
+            masonry: {
+                // use outer width of grid-sizer for columnWidth
+                columnWidth: '.grid-sizer',
+                gutter: '.gutter-sizer'
+            }
+        });
+    }
+
+    // filter items on button click
+    $('.filter-button-group').on('click', 'button', function () {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({
+            filter: filterValue
+        });
+    });
+
+    $('.filter-button-group button').click(function () {
+        $('.filter-button-group button').removeClass('active');
+        $(this).addClass('active');
+    });
+
+
+
+
+    // input type file
+
+    (function() {
+  
+        'use strict';
+      
+        $('.input-file').each(function() {
+          var $input = $(this),
+              $label = $input.next('.js-labelFile'),
+              labelVal = $label.html();
+          
+         $input.on('change', function(element) {
+            var fileName = '';
+            if (element.target.value) fileName = element.target.value.split('\\').pop();
+            fileName ? $label.addClass('has-file').find('.sss').html(fileName) : $label.removeClass('has-file').html(labelVal);
+         });
+        });
+      
+      })();
+    //   scroll to top - hide/show
+      $(window).scroll(function() {
+        if ($(this).scrollTop()) {
+            $('.footer__up').fadeIn();
+        } else {
+            $('.footer__up').fadeOut();
+        }
+    });
+    
+
 });

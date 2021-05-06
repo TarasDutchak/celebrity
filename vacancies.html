@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
+    <title>Vacancies</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -24,7 +25,7 @@
                 </button>
                 <nav>
                     <ul>
-                        <li class="active"><a href="#">Головна</a></li>
+                        <li><a href="#">Головна</a></li>
                         <li><a href="#">Послуги</a></li>
                         <li><a href="#">Ціни</a></li>
                         <li>
@@ -47,7 +48,7 @@
                         </li>
                         <li><a href="#">подарункові сертифікати</a></li>
                         <li><a href="#">Про нас</a></li>
-                        <li><a href="#">Вакансії</a></li>
+                        <li class="active"><a href="#">Вакансії</a></li>
                         <li><a href="#">Контакти</a></li>
                     </ul>
                 </nav>
@@ -88,152 +89,238 @@
         <div class="breadcrumbs">
             <ul>
                 <li><a href="#">ГОЛОВНА</a></li>
-                <li>ПОСЛУГИ</li>
+                <li>ВАКАНСІЇ</li>
             </ul>
         </div>
-        <section class="services">
+        <section class="generalmain">
             <div class="container">
-                <!-- <p class="services-subtitle"><span>ВИ ОТРИМАЄТЕ</span></p> -->
-                <h1 class="services__title">Послуги Celebrity Luxury SPA</h1>
+                <h1 class="services__title">Вакансії Celebrity Luxury Spa
+                </h1>
                 <div class="services__descr">
                     <h3>
-                        Тут передбачено 4-5 рядків описового тексту про послуги Celebrity Luxury Spa. Тут передбачено
-                        4-5 рядків описового тексту про послуги Celebrity Luxury Spa.Тут передбачено 4-5 рядків
-                        описового тексту про послуги Celebrity Luxury Spa.Тут передбачено 4-5 рядків описового тексту
-                        про послуги Celebrity Luxury Spa.Тут передбачено 4-5 рядків описового тексту про послуги
-                        Celebrity Luxury Spa.Тут передбачено 4-5 рядків описового тексту про послуги Celebrity Luxury
-                        Spa.
+                        Тут передбачено 2-3 рядків описового тексту про акційні пропозиції Celebrity Luxury Spa. Тут
+                        передбачено 4-5 рядків описового тексту про акційні пропозиції Celebrity Luxury Spa.
                     </h3>
                 </div>
-                <div class="services__servicesboxex">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="servicebox">
-                                <div class="servicebox__pic">
-                                    <img src="img/servpic1.jpg" alt="image">
-                                </div>
-                                <div class="servicebox__descr">
-                                    <div class="bottservinfo">
-                                        <div class="title">МАСАЖІ</div>
-                                        <a href="#" class="custombtn">детальніше</a>
+
+                <div class="vac-wrapper">
+                    <div class="button-group filter-button-group">
+                        <button data-filter="*" class="btn active">Всі SPA-центри (44)</button>
+                        <button data-filter=".sparesort" class="btn">F&B Spa Resort (20)</button>
+                        <button data-filter=".karpatski" class="btn">Karpatski Hotel & Spa (4)</button>
+                        <button data-filter=".roxolana" class="btn">Grand Hotel Roxolana (20)</button>
+                    </div>
+                    <div class="grid">
+                        <div class="grid-sizer"></div>
+                        <div class="gutter-sizer"></div>
+                        <div class="item grid-item sparesort">
+                            <div class="vacancbox">
+                                <div class="vacancbox__info">
+                                    <p class="title">Адміністратор</p>
+                                    <div class="vacancbox__infodescr">
+                                        <p>
+                                            Тут передбачено 4-5 рядків описового тексту про вакансію Celebrity Luxury
+                                            Spa. Тут передбачено 4-5 рядків описового тексту про вакансії Celebrity
+                                            Luxury Spa. Тут передбачено 4-5 рядків описового тексту про вакансії
+                                            Celebrity Luxury Spa.
+                                        </p>
+                                    </div>
+                                    <div class="vacancbox__bottsect">
+                                        <p class="hotelname">F&B SPA RESORT</p>
+                                        <p class="zp">12 000 грн/м</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="servicebox">
-                                <div class="servicebox__pic">
-                                    <img src="img/servpic2.jpg" alt="image">
-                                </div>
-                                <div class="servicebox__descr">
-                                    <div class="bottservinfo">
-                                        <div class="title">ПОСЛУГА 2</div>
-                                        <a href="#" class="custombtn">детальніше</a>
+                        <div class="item grid-item karpatski">
+                            <div class="vacancbox">
+                                <div class="vacancbox__info">
+                                    <p class="title">Покоївка</p>
+                                    <div class="vacancbox__infodescr">
+                                        <p>
+                                            Тут передбачено 4-5 рядків описового тексту про вакансію Celebrity Luxury
+                                            Spa. Тут передбачено 4-5 рядків описового тексту про вакансії Celebrity
+                                            Luxury Spa. Тут передбачено 4-5 рядків описового тексту про вакансії
+                                            Celebrity Luxury Spa.
+                                        </p>
+                                    </div>
+                                    <div class="vacancbox__bottsect">
+                                        <p class="hotelname">Karpatski Hotel & Spa</p>
+                                        <p class="zp">8 000 грн/м</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="servicebox">
-                                <div class="servicebox__pic">
-                                    <img src="img/servpic3.jpg" alt="image">
-                                </div>
-                                <div class="servicebox__descr">
-                                    <div class="bottservinfo">
-                                        <div class="title">ПОСЛУГА 3</div>
-                                        <a href="#" class="custombtn">детальніше</a>
+                        <div class="item grid-item roxolana">
+                            <div class="vacancbox">
+                                <div class="vacancbox__info">
+                                    <p class="title">Технік</p>
+                                    <div class="vacancbox__infodescr">
+                                        <p>
+                                            Тут передбачено 4-5 рядків описового тексту про вакансію Celebrity Luxury
+                                            Spa. Тут передбачено 4-5 рядків описового тексту про вакансії Celebrity
+                                            Luxury Spa. Тут передбачено 4-5 рядків описового тексту про вакансії
+                                            Celebrity Luxury Spa.
+                                        </p>
+                                    </div>
+                                    <div class="vacancbox__bottsect">
+                                        <p class="hotelname">Grand Hotel Roxolana</p>
+                                        <p class="zp">10 000 грн/м</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="servicebox">
-                                <div class="servicebox__pic">
-                                    <img src="img/servpic4.jpg" alt="image">
-                                </div>
-                                <div class="servicebox__descr">
-                                    <div class="bottservinfo">
-                                        <div class="title">ПОСЛУГА 4</div>
-                                        <a href="#" class="custombtn">детальніше</a>
+                        <div class="item grid-item sparesort">
+                            <div class="vacancbox">
+                                <div class="vacancbox__info">
+                                    <p class="title">Адміністратор</p>
+                                    <div class="vacancbox__infodescr">
+                                        <p>
+                                            Тут передбачено 4-5 рядків описового тексту про вакансію Celebrity Luxury Spa. 
+                                        </p>
+                                    </div>
+                                    <div class="vacancbox__bottsect">
+                                        <p class="hotelname">F&B SPA RESORT</p>
+                                        <p class="zp">12 000 грн/м</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="servicebox">
-                                <div class="servicebox__pic">
-                                    <img src="img/servpic1.jpg" alt="image">
-                                </div>
-                                <div class="servicebox__descr">
-                                    <div class="bottservinfo">
-                                        <div class="title">МАСАЖІ</div>
-                                        <a href="#" class="custombtn">детальніше</a>
+                        <div class="item grid-item sparesort">
+                            <div class="vacancbox">
+                                <div class="vacancbox__info">
+                                    <p class="title">Покоївка</p>
+                                    <div class="vacancbox__infodescr">
+                                        <p>
+                                            Тут передбачено 4-5 рядків описового тексту про вакансію Celebrity Luxury Spa. Тут передбачено 4-5 рядків описового тексту про вакансії Celebrity Luxury Spa. Тут передбачено 4-5 рядків описового тексту про вакансії Celebrity Luxury Spa.
+                                        </p>
+                                    </div>
+                                    <div class="vacancbox__bottsect">
+                                        <p class="hotelname">F&B SPA RESORT</p>
+                                        <p class="zp">7 000 грн/м</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="servicebox">
-                                <div class="servicebox__pic">
-                                    <img src="img/servpic2.jpg" alt="image">
-                                </div>
-                                <div class="servicebox__descr">
-                                    <div class="bottservinfo">
-                                        <div class="title">ПОСЛУГА 2</div>
-                                        <a href="#" class="custombtn">детальніше</a>
+                        <div class="item grid-item karpatski">
+                            <div class="vacancbox">
+                                <div class="vacancbox__info">
+                                    <p class="title">Бармен</p>
+                                    <div class="vacancbox__infodescr">
+                                        <p>
+                                            Тут передбачено 4-5 рядків описового тексту про вакансію Celebrity Luxury Spa. 
+                                        </p>
+                                    </div>
+                                    <div class="vacancbox__bottsect">
+                                        <p class="hotelname">Karpatski Hotel & Spa</p>
+                                        <p class="zp">22 000 грн/м</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="servicebox">
-                                <div class="servicebox__pic">
-                                    <img src="img/servpic3.jpg" alt="image">
-                                </div>
-                                <div class="servicebox__descr">
-                                    <div class="bottservinfo">
-                                        <div class="title">ПОСЛУГА 3</div>
-                                        <a href="#" class="custombtn">детальніше</a>
+                        <div class="item grid-item sparesort">
+                            <div class="vacancbox">
+                                <div class="vacancbox__info">
+                                    <p class="title">Технік</p>
+                                    <div class="vacancbox__infodescr">
+                                        <p>
+                                            Тут передбачено 4-5 рядків описового тексту про вакансію Celebrity Luxury
+                                            Spa. Тут передбачено 4-5 рядків описового тексту про вакансії Celebrity
+                                            Luxury Spa. Тут передбачено 4-5 рядків описового тексту про вакансії
+                                            Celebrity Luxury Spa.
+                                        </p>
+                                    </div>
+                                    <div class="vacancbox__bottsect">
+                                        <p class="hotelname">F&B SPA RESORT</p>
+                                        <p class="zp">12 000 грн/м</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="servicebox">
-                                <div class="servicebox__pic">
-                                    <img src="img/servpic4.jpg" alt="image">
+                        <div class="item grid-item roxolana">
+                            <div class="vacancbox">
+                                <div class="vacancbox__info">
+                                    <p class="title">Адміністратор</p>
+                                    <div class="vacancbox__infodescr">
+                                        <p>
+                                            Тут передбачено 4-5 рядків описового тексту про вакансію Celebrity Luxury
+                                            Spa. Тут передбачено 4-5 рядків описового тексту про вакансії Celebrity
+                                            Luxury Spa. Тут передбачено 4-5 рядків описового тексту про вакансії
+                                            Celebrity Luxury Spa.
+                                        </p>
+                                    </div>
+                                    <div class="vacancbox__bottsect">
+                                        <p class="hotelname">Grand Hotel Roxolana</p>
+                                        <p class="zp">10 000 грн/м</p>
+                                    </div>
                                 </div>
-                                <div class="servicebox__descr">
-                                    <div class="bottservinfo">
-                                        <div class="title">ПОСЛУГА 4</div>
-                                        <a href="#" class="custombtn">детальніше</a>
+                            </div>
+                        </div>
+                        <div class="item grid-item sparesort">
+                            <div class="vacancbox">
+                                <div class="vacancbox__info">
+                                    <p class="title">Технік</p>
+                                    <div class="vacancbox__infodescr">
+                                        <p>
+                                            Тут передбачено 4-5 рядків описового тексту про вакансію Celebrity Luxury
+                                            Spa. Тут передбачено 4-5 рядків описового тексту про вакансії Celebrity
+                                            Luxury Spa. Тут передбачено 4-5 рядків описового тексту про вакансії
+                                            Celebrity Luxury Spa.
+                                        </p>
+                                    </div>
+                                    <div class="vacancbox__bottsect">
+                                        <p class="hotelname">F&B SPA RESORT</p>
+                                        <p class="zp">12 000 грн/м</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="pagination">
+                        <ul>
+                            <li class="disabled"><a href="#"><img src="img/icons/pagination-arrowleft.svg" alt="prev"></a></li>
+                            <li class="active"><a href="#">01</a></li>
+                            <li><a href="#">02</a></li>
+                            <li><a href="#">03</a></li>
+                            <li><span>...</span></li>
+                            <li><a href="#">142</a></li>
+                            <li><a href="#"><img src="img/icons/pagination-arrowright.svg" alt="next"></a></li>
+                        </ul>
+                    </div>
                 </div>
+
+
+
+
+
+
             </div>
         </section>
-        <section class="contacts-section">
+        <section class="contacts-section vacancies-form">
             <div class="container">
-                <p class="title">Маєте запитання до нас? </p>
+                <p class="title">Зацікавила вакансія?</p>
+                <p class="descr">Ви можете надіслати нам своє резюме</p>
                 <form action="#">
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-6">
                             <input type="text" placeholder="Ваше ім’я *">
                         </div>
-                        <div class="col-lg-4">
-                            <input type="email" placeholder="E-mail *">
-                        </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-6">
                             <input type="tel" placeholder="Номер телефону">
                         </div>
                         <div class="col-12">
                             <textarea placeholder="Текст повідомлення"></textarea>
+                            <!-- <input type="file"> -->
+                            <div class="form-group">
+                                <input type="file" name="file" id="file" class="input-file">
+                                <label for="file" class="btn btn-tertiary js-labelFile">
+                                  <span class="js-fileName"><img src="img/file.svg" alt=""> ВИБРАТИ ФАЙЛ</span>
+                                  <span class="sss">Файл не вибрано</span>
+                                </label>
+                              </div>
                             <button type="submit" class="custombtn">ВІДПРАВИТИ</button>
                         </div>
-
+                        
                     </div>
                 </form>
             </div>
@@ -255,7 +342,7 @@
             </div>
             <div class="footer__nav">
                 <ul>
-                    <li class="active"><a href="#">Головна</a></li>
+                    <li><a href="#">Головна</a></li>
                     <li><a href="#">Послуги</a></li>
                     <li><a href="#">Ціни</a></li>
                     <li>
@@ -278,7 +365,7 @@
                     </li>
                     <li><a href="#">подарункові сертифікати</a></li>
                     <li><a href="#">Про нас</a></li>
-                    <li><a href="#">Вакансії</a></li>
+                    <li class="active"><a href="#">Вакансії</a></li>
                     <li><a href="#">Контакти</a></li>
                 </ul>
             </div>
@@ -344,13 +431,11 @@
                     </li>
                 </ul>
             </div>
-            
         </div>
         <div class="footer__botttext">
             <p>Celebrity Luxury spa 2021. Всі права захищено.</p>
         </div>
     </footer>
-
     <div class="footer__up">
         <a href="#" class="custombtn">
             <svg width="22" height="27" viewBox="0 0 22 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -364,12 +449,14 @@
         </a>
     </div>
 
+
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
-    <script src="js/jquery.inputmask.min.js"></script>
     <script src="js/sly.js"></script>
+    <script src="js/jquery.inputmask.min.js"></script>
     <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/common.js"></script>
 </body>
 

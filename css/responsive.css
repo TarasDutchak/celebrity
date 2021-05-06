@@ -404,6 +404,29 @@
         padding: 150px 0;
     }
 
+    .vac-wrapper .button-group.filter-button-group {
+        margin-bottom: 45px;
+    }
+
+    .vacancbox__infodescr p {
+        font-size: 16px;
+    }
+
+    .mapbox__info .title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .footer__up a {
+        display: flex;
+        width: 45px;
+        height: 45px;
+    }
+
+    .footer__up a svg {
+        width: 15px;
+    }
+
 
 
 
@@ -422,6 +445,11 @@
 
     .mainscreen__textsect p {
         font-size: 18px;
+    }
+
+    .mapbox__info ul li a,
+    .mapbox__info ul li {
+        font-size: 16px;
     }
 
     .breadcrumbs.toleft ul li,
@@ -617,10 +645,41 @@
         height: 480px;
     }
 
+    .vac-wrapper {
+        padding: 20px 0 45px 0;
+    }
 
+    .vac-wrapper button {
+        margin-right: 30px;
+        font-size: 16px;
+    }
 
+    .vacancbox__info {
+        padding: 30px;
+    }
 
+    .grid-sizer,
+    .grid-item {
+        width: calc(50% - 15px);
+    }
 
+    .gutter-sizer {
+        width: 30px;
+    }
+
+    .vacancbox__bottsect .hotelname {
+        max-width: 60%;
+        flex: 0 0 60%;
+    }
+
+    .vacancbox__bottsect .zp {
+        max-width: 40%;
+        flex: 0 0 40%;
+    }
+
+    .vacancbox {
+        margin-bottom: 40px;
+    }
 
 
 
@@ -939,6 +998,14 @@
         margin-bottom: 50px;
     }
 
+    .mapsections {
+        padding-bottom: 0;
+    }
+
+    .footer__up {
+        right: 20px;
+        bottom: 20px;
+    }
 
 
 
@@ -946,6 +1013,11 @@
 
 
 
+
+    .vacancbox__bottsect .hotelname,
+    .vacancbox__bottsect .zp {
+        font-size: 16px;
+    }
 
     .section-title,
     .contacts-section .title {
@@ -1029,7 +1101,7 @@
         padding: 100px 0;
     }
 
-
+   
 
 
     .textbox__cont .address .addr {
@@ -1410,6 +1482,34 @@
         padding: 40px 20px 40px 0;
     }
 
+    .gutter-sizer {
+        width: 0;
+    }
+
+    .grid-sizer,
+    .grid-item {
+        width: 100%;
+    }
+
+    .vac-wrapper button {
+        margin-bottom: 20px;
+    }
+
+    .vac-wrapper button:after {
+        bottom: -6px;
+    }
+
+    .vacancbox__infodescr p {
+        margin-bottom: 40px;
+    }
+
+    .generalmain {
+        padding-top: 40px;
+    }
+
+    .vac-wrapper .button-group.filter-button-group {
+        margin-bottom: 20px;
+    }
 
 
 
@@ -1683,9 +1783,14 @@
         padding: 0;
     }
 
+    .footer__social ul {
+        margin: 0 auto;
+    }
 
-
-
+    .footer__social {
+        max-width: 100%;
+        text-align: center;
+    }
 
 
 
@@ -1986,19 +2091,90 @@
         margin-bottom: 30px;
     }
 
-    .articlesect__body ul, .articlesect__body ol {
+    .articlesect__body ul,
+    .articlesect__body ol {
         padding-left: 20px;
+    }
+
+    .vac-wrapper button {
+        margin-right: 0;
+        padding: 0 20px;
+    }
+
+    .vac-wrapper .button-group.filter-button-group {
+        text-align: center;
+    }
+
+    .vacancbox__info .title {
+        font-size: 22px;
+        height: auto;
+    }
+
+    .vacancbox__infodescr p {
+        height: auto;
+    }
+
+    .vacancbox__bottsect {
+        flex-wrap: wrap;
+    }
+
+    .vacancbox__bottsect .hotelname,
+    .vacancbox__bottsect .zp {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .vacancbox__bottsect .zp {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .vacancbox__bottsect .hotelname {
+        padding-left: 20px;
+    }
+
+    .vacancbox {
+        margin-bottom: 30px;
+    }
+
+    .mapbox__pic {
+        width: calc(100% - 14px);
+    }
+
+    .mapbox__info {
+        width: calc(100% - 14px);
+        padding-left: 14px;
+    }
+
+    .mapbox__pic a {
+        width: 180px;
+        height: 54px;
+    }
+
+    .mapbox__pic {
+        height: 300px;
+    }
+
+    .mapbox__info {
+        padding-top: 280px;
+    }
+
+    .mapbox {
+        margin-bottom: 40px;
+    }
+
+    .mapbox__info ul li a {
+        display: inline-block;
+    }
+
+    .footer__up {
+        right: 0;
+        bottom: 25px;
     }
 
 
 
-
-
-
-
-
-
-
+    
 
 
     .reviews .section-title {

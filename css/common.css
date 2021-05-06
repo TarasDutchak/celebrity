@@ -184,8 +184,6 @@ header.header {
 
 
 
-
-
 /* HEADER - END*/
 
 /* MAIN */
@@ -1818,7 +1816,8 @@ main.greenbg:after {
     top: 0;
 }
 
-main.greenbg .breadcrumbs ul li {
+main.greenbg .breadcrumbs ul li,
+main.biggreenbg .breadcrumbs ul li {
     color: #D6D6D6;
 }
 
@@ -2224,7 +2223,7 @@ main.greenbg .breadcrumbs ul li {
 
 .breadcrumbs ul li {
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.4);
+    /* color: rgba(255, 255, 255, 0.4); */
 }
 
 .breadcrumbs.toleft ul li a {
@@ -2324,9 +2323,11 @@ main.greenbg .breadcrumbs ul li {
     margin-bottom: 58px;
     max-width: 82%;
 }
+
 .articlesect__body h2 {
     font-size: 24px;
 }
+
 .articlesect__body h3 {
     font-size: 22px;
 }
@@ -2351,6 +2352,7 @@ main.greenbg .breadcrumbs ul li {
     margin-bottom: 75px;
     padding-left: 60px;
 }
+
 .articlesect__body img {
     margin: 77px 0 77px 0;
     display: block;
@@ -2360,19 +2362,21 @@ main.greenbg .breadcrumbs ul li {
 
 .articlesect__body ul {
     list-style-type: none;
-    
+
 }
+
 .articlesect__body ul li {
     padding-left: 36px;
     color: #283E39;
 }
+
 .articlesect__body ul li,
-.articlesect__body ol li  {
+.articlesect__body ol li {
     margin-bottom: 16px;
     position: relative;
 }
 
-.articlesect__body ul li:after{
+.articlesect__body ul li:after {
     content: '';
     display: inline-block;
     width: 18px;
@@ -2389,9 +2393,11 @@ main.greenbg .breadcrumbs ul li {
 .articlesect__body ol li:last-child {
     margin-bottom: 0;
 }
+
 .articlesect__body ol li {
     color: #C79C42;
 }
+
 .articlesect__body ol li span {
     padding-left: 15px;
     color: #283E39;
@@ -2430,12 +2436,354 @@ main.greenbg .breadcrumbs ul li {
     display: block;
 }
 
+.generalmain {
+    padding: 70px 0 0 0;
+}
 
+.grid-sizer,
+.grid-item {
+    width: calc(50% - 38px);
+    margin: 0;
+}
 
+.gutter-sizer {
+    width: 76px;
+}
 
+.vac-wrapper button {
+    padding: 0;
+    outline: none;
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 18px;
+    line-height: 160%;
+    color: #777777;
+    margin-right: 60px;
+    position: relative;
+}
 
+.vac-wrapper button:last-child {
+    margin-right: 0;
+}
 
+.vac-wrapper button.active {
+    color: #C79C42;
+}
 
+.vac-wrapper {
+    padding: 50px 0 95px 0;
+}
+
+.vac-wrapper .button-group.filter-button-group {
+    margin-bottom: 85px;
+    position: relative;
+}
+
+.vac-wrapper button:after {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 100%;
+    background: transparent;
+    bottom: -12px;
+    left: 0;
+    position: absolute;
+}
+
+.vac-wrapper button.active:after {
+    background: #C79C42;
+}
+
+.vacancbox {
+    position: relative;
+    padding: 0 0 14px 14px;
+    margin-bottom: 70px;
+}
+
+.vacancbox__info {
+    background: #F6F5F0;
+    padding: 45px 45px 40px 45px;
+    position: relative;
+    z-index: 2;
+}
+
+.vacancbox__info .title {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 150%;
+    color: #283E39;
+    font-family: 'Lora', serif;
+    height: 77px;
+    margin-bottom: 25px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.vacancbox__infodescr p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #777777;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 124px;
+    margin-bottom: 70px;
+}
+
+.vacancbox__bottsect {
+    display: flex;
+    align-items: center;
+}
+
+.vacancbox__bottsect p {
+    margin: 0;
+    width: 100%;
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+.vacancbox__bottsect .zp {
+    text-align: right;
+    font-size: 18px;
+    line-height: 160%;
+    color: #283E39;
+    font-family: 'Lora', serif;
+}
+
+.vacancbox__bottsect .hotelname {
+    position: relative;
+    padding-left: 31px;
+    color: #C79C42;
+    font-size: 18px;
+    line-height: 160%;
+    font-family: 'Lora', serif;
+}
+
+.vacancbox__bottsect .hotelname:after {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url('../img/vacmark.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.vacancbox:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: calc(100% - 14px);
+    height: calc(100% - 14px);
+    background: #3F5651;
+    top: 14px;
+    left: 0;
+}
+
+.vac-wrapper .pagination {
+    margin-top: 30px;
+}
+
+.contacts-section.vacancies-form .title {
+    margin-bottom: 22px;
+}
+
+.contacts-section.vacancies-form .descr {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+.contacts-section.vacancies-form form {
+    max-width: 650px;
+}
+
+#file {
+    display: none;
+}
+
+.js-labelFile {
+    padding: 0;
+    margin: 0;
+}
+
+.js-fileName {
+    text-transform: uppercase;
+    color: #C79C42;
+    margin-right: 30px;
+}
+
+.sss {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contacts-section.vacancies-form .form-group {
+    margin-bottom: 60px;
+}
+
+.biggreenbg:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 740px;
+    background-image: url(../img/green-bg.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.contus h2 {
+    margin-bottom: 23px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 160%;
+    font-family: 'Lora', serif;
+}
+
+.contus h3 {
+    max-width: 845px;
+    margin: 0 auto;
+    color: #C8C8C8;
+}
+
+.mapsections {
+    position: relative;
+    z-index: 2;
+    padding-bottom: 40px;
+}
+
+.mapbox {
+    position: relative;
+    padding-top: 44px;
+    margin-bottom: 70px;
+}
+
+.mapbox__pic {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% - 44px);
+    height: 370px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.mapbox__pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 0;
+}
+
+.mapbox__info {
+    background: #283E39;
+    padding: 352px 10px 33px 44px;
+    width: calc(100% - 44px);
+}
+
+.mapbox__info .title {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    color: #fff;
+    font-family: 'Lora', serif;
+    margin-bottom: 24px;
+}
+
+.mapbox__info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mapbox__info ul li {
+    margin-bottom: 8px;
+    padding-left: 34px;
+    position: relative;
+    color: #C8C8C8;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.mapbox__info ul li:last-child {
+    margin-bottom: 0;
+}
+
+.mapbox__info ul li a {
+    transition: .3s;
+    color: #C8C8C8;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.mapbox__info ul li a:hover {
+    text-decoration: none;
+    color: #C79C42;
+}
+
+.mapbox__info ul li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-size: 100% 100%;
+}
+
+.mapbox__info ul li.contphone:before {
+    background-image: url('../img/conttel.svg');
+}
+
+.mapbox__info ul li.contmail:before {
+    background-image: url('../img/contmail.svg');
+}
+
+.mapbox__info ul li.contaddrr:before {
+    background-image: url('../img/contmark.svg');
+}
+
+.mapbox__pic a {
+    width: 220px;
+    height: 62px;
+    background: #C79C42;
+    border: 1px solid #C79C42;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .3s;
+}
+
+.mapbox__pic a:hover {
+    text-decoration: none;
+    background: #fff;
+    color: #C79C42;
+}
+
+.footer__up {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    display: none;
+    z-index: 11;
+}
 
 
 
@@ -2447,3 +2795,29 @@ main.greenbg .breadcrumbs ul li {
 
 /* font-family: 'Lora', serif;
 font-family: 'Nunito', sans-serif; */
+
+h1 {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 150%;
+    text-align: center;
+    color: #283E39;
+    font-family: 'Lora', serif;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 160%;
+    text-align: center;
+    color: #283E39;
+    font-family: 'Lora', serif;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #777777;
+    font-weight: normal;
+}
