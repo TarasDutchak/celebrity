@@ -177,9 +177,11 @@ $(document).ready(function () {
         slidesToShow: 3.5,
         slidesToScroll: 1,
         focusOnSelect: true,
-        arrows: false,
+        arrows: true,
         speed: 500,
         infinite: false,
+        prevArrow: '<button type="button" class="slick-prev"></button>',
+        nextArrow: '<button type="button" class="slick-next"></button>',
         responsive: [{
                 breakpoint: 992,
                 settings: {

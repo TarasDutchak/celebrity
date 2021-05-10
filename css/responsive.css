@@ -53,6 +53,28 @@
 }
 
 @media(max-width:1600.8px) {
+
+    .ournews-slidersect:after {
+        width: 240px;
+        height: 60px;
+        right: 100px;
+    }
+
+    .ournews-slidersect .slick-arrow {
+        height: 60px;
+        width: 106px;
+    }
+
+    .ournews-slidersect .slick-next.slick-arrow {
+        background-position: center left 15px;
+        right: 100px;
+    }
+
+    .ournews-slidersect .slick-prev.slick-arrow {
+        background-position: center right 15px;
+        right: 233px;
+    }
+
     header.header {
         height: 80px;
     }
@@ -437,8 +459,28 @@
     .vac-wrapper.categsort .scrslidebox {
         margin-bottom: 50px;
     }
+    .articlesect.service .fromtext, .articlesect.service .fromtext a {
+        font-size: 16px;
+    }
 
+    .articlesect.service h2 {
+        margin-bottom: 40px;
+    }
 
+    .services.price.servsect {
+        padding: 100px 0 80px;
+    }
+    .articlesect__body.service-littsect {
+        padding: 70px 0;
+    }
+
+    .ournews.servsect {
+        padding: 70px 0 100px;
+    }
+
+    .errorsection {
+        height: calc(100vh - 138px);
+    }
 
 
 
@@ -698,9 +740,13 @@
         padding-top: 20px;
     }
 
+    .articlesect.service .articlesect__headercontain .titlesect h1 {
+        margin-bottom: 35px;
+    }
 
-
-
+    .services.price.servsect {
+        padding-bottom: 50px;
+    }
 
 
 
@@ -1027,6 +1073,17 @@
         width: calc(33% - 17px);
     }
 
+    .articlesect__body {
+        padding-bottom: 70px;
+    }
+
+    .errorsection {
+        height: calc(100vh - 128px);
+    }
+
+
+
+
 
 
 
@@ -1128,6 +1185,29 @@
 }
 
 @media(max-width:991.8px) {
+
+    .ournews-slidersect {
+        padding-top: 85px;
+    }
+    .ournews-slidersect:after {
+        width: 180px;
+        height: 50px;
+        right: 50px;
+    }
+
+    .ournews-slidersect .slick-prev.slick-arrow {
+        right: 139px;
+    }
+
+    .ournews-slidersect .slick-next.slick-arrow {
+        right: 50px;
+    }
+
+    .ournews-slidersect .slick-arrow {
+        height: 50px;
+        width: 90px;
+    }
+
     .mainscreen__textsect h1 {
         font-size: 42px;
     }
@@ -1542,6 +1622,27 @@
         width: 30px;
     }
 
+    .certificates-slidersect.service {
+        padding-bottom: 40px;
+    }
+
+    .articlesect__body ul {
+        padding-left: 50px;
+    }
+
+    .articlesect__body ol {
+        padding-left: 80px;
+    }
+
+    .articlesect__body.service .videobox {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+
+
+
 
 
 
@@ -1821,7 +1922,9 @@
         text-align: center;
     }
 
-
+    .errorsection {
+        height: calc(100vh - 118px);
+    }
 
 
 
@@ -1872,6 +1975,21 @@
 }
 
 @media(max-width:575.8px) {
+    .ournews-slidersect {
+        padding-top: 70px;
+    }
+
+    .ournews-slidersect:after {
+       right: 15px;
+    }
+
+    .ournews-slidersect .slick-prev.slick-arrow {
+        right: 104px;
+    }
+
+    .ournews-slidersect .slick-next.slick-arrow {
+        right: 15px;
+    }
 
     .visitslider .mainslider__slide,
     .mainscreen {
@@ -2120,7 +2238,9 @@
         margin-bottom: 30px;
     }
 
-    .articlesect__body ul,
+    .articlesect__body ul {
+        padding-left: 0;
+    }
     .articlesect__body ol {
         padding-left: 20px;
     }
@@ -2246,10 +2366,49 @@
         margin-top: -10px;
     }
 
+    .articlesect.service .articlesect__headercontain {
+        padding-bottom: 30px;
+    }
 
-
-
+    .articlesect.service h2 {
+        margin-bottom: 30px;
+    }
     
+    .certificates-slidersect.service .certificates-slider {
+        padding-top: 85px;
+    }
+
+    .services.price.servsect {
+        padding: 50px 0;
+    }
+
+    .ournews.servsect {
+        padding: 50px 0 70px;
+    }
+
+
+    .ournews.servsect .ournews-slider__slide {
+        padding: 0 10px;
+    }
+
+    .errorsection .title {
+        font-size: 30px;
+    }
+
+    .errorsection .subtitle {
+        margin-bottom: 15px;
+    }
+    
+    .errorsection .subtitle span {
+        padding-left: 42px;
+    }
+
+    .errorsection .descr {
+        margin-bottom: 50px;
+    }
+
+
+
 
 
 
