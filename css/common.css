@@ -42,7 +42,7 @@ header.header {
 }
 
 .header__nav {
-    width: calc(100% - 300px);
+    width: calc(100% - 600px);
     padding: 0 60px;
 }
 
@@ -2933,7 +2933,14 @@ main.biggreenbg .breadcrumbs ul li {
 }
 .articlesect.service .fromtext a {
     margin-right: 10px;
+    display: inline-block;
 }
+
+.articlesect.service .fromtext a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
 .articlesect.service .fromtext span {
     text-transform: initial;
     color: rgba(255, 255, 255, 0.4);
@@ -2945,9 +2952,18 @@ main.biggreenbg .breadcrumbs ul li {
     font-family: 'Lora', serif;
 }
 
-.articlesect.service .fromtext a img {
+.articlesect.service .fromtext a img,
+.articlesect.service .fromtext a svg {
     margin-top: -5px;
     margin-right: 4px;
+}
+
+.articlesect.service .fromtext a svg path {
+    transition: .3s;
+}
+
+.articlesect.service .fromtext a:hover svg path {
+    fill: #fff;
 }
 
 .articlesect.service .articlesect__headercontain .titlesect {
@@ -3084,16 +3100,42 @@ main.biggreenbg .breadcrumbs ul li {
 
 .errorsection .descr {
     color: #8A8A8A;
-    margin-bottom: 70px;
+    max-width: 645px;
+    margin: 0 auto 70px;
+}
+.errorsection .linksbox {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.errorsection .linksbox a {
+    color: #C79C42;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+}
+.errorsection .linksbox a:hover {
+    text-decoration: none;
+    color: #fff;
 }
 
+.errorsection .linksbox a svg  {
+    margin-right: 19px;
+}
 
+.errorsection .linksbox a svg path {
+    transition: .3s;
+}
 
+.errorsection .linksbox a:hover svg path {
+    fill: #fff;
+}
 
-
-
-
-
+.errorsection {
+    min-height: 400px;
+}
 
 
 

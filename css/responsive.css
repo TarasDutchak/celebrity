@@ -482,9 +482,13 @@
         height: calc(100vh - 138px);
     }
 
+    .header__nav {
+        width: calc(100% - 500px);
+    }
 
-
-
+    .errorsection__textbox.thanks .descr {
+        margin-bottom: 50px;
+    }
 
 
 
@@ -2407,7 +2411,9 @@
         margin-bottom: 50px;
     }
 
-
+    .errorsection .linksbox {
+        max-width: 260px;
+    }
 
 
 
