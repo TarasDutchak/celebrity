@@ -1085,6 +1085,9 @@
         height: calc(100vh - 128px);
     }
 
+    .akcii {
+        margin-top: 0;
+    }
 
 
 
@@ -1180,8 +1183,7 @@
         padding: 100px 0;
     }
 
-
-
+   
 
     .textbox__cont .address .addr {
         font-size: 14px;
@@ -1643,7 +1645,10 @@
         margin-bottom: 40px;
     }
 
-
+    .slider-section.mtmin70
+     {
+        margin-top: 0;
+    }
 
 
 

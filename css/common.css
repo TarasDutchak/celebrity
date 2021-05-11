@@ -3137,8 +3137,14 @@ main.biggreenbg .breadcrumbs ul li {
     min-height: 400px;
 }
 
-
-
+.ournews-slidersect .slick-prev.slick-arrow:hover,
+.certificates-slider .slick-prev.slick-arrow:hover {
+    background-position: center right 20px;
+}
+.ournews-slidersect .slick-next.slick-arrow:hover,
+.certificates-slider .slick-next.slick-arrow:hover {
+    background-position: center left 20px;
+}
 
 
 
