@@ -1065,7 +1065,7 @@ main {
 }
 
 .ournews {
-    padding: 122px 0 280px 0;
+    padding: 122px 0 180px 0;
     background: #F6F5F0;
 }
 
@@ -3146,6 +3146,28 @@ main.biggreenbg .breadcrumbs ul li {
     background-position: center left 20px;
 }
 
+.mainscreen__textsect h1 {
+    text-transform: uppercase;
+}
+
+.discount .services__title span,
+.certificates .services__title span {
+    text-transform: uppercase;
+}
+
+.footer__botttext a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.footer__botttext  p {
+    text-align: center;
+}
+
+.vacancbox a:hover {
+    text-decoration: none;
+}
 
 
 
