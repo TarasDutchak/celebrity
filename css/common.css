@@ -2225,6 +2225,7 @@ main.biggreenbg .breadcrumbs ul li {
     font-size: 14px;
     /* color: rgba(255, 255, 255, 0.4); */
 }
+
 .breadcrumbs.toleft ul li {
     font-size: 16px;
 }
@@ -2818,7 +2819,7 @@ main.biggreenbg .breadcrumbs ul li {
     height: auto;
     display: -webkit-box;
     -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;  
+    -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
@@ -2931,6 +2932,7 @@ main.biggreenbg .breadcrumbs ul li {
     font-family: 'Lora', serif;
     transition: .3s;
 }
+
 .articlesect.service .fromtext a {
     margin-right: 10px;
     display: inline-block;
@@ -3025,9 +3027,11 @@ main.biggreenbg .breadcrumbs ul li {
 .ournews-slidersect a:hover {
     text-decoration: none;
 }
+
 .ournews-slidersect a .scrslidebox .textbox p {
     transition: .3s;
 }
+
 .ournews-slidersect a:hover .scrslidebox .textbox p {
     color: #fff;
 }
@@ -3047,6 +3051,7 @@ main.biggreenbg .breadcrumbs ul li {
 .ournews.servsect .catlabel {
     right: -14px;
 }
+
 #play_button {
     margin: 0;
 }
@@ -3103,6 +3108,7 @@ main.biggreenbg .breadcrumbs ul li {
     max-width: 645px;
     margin: 0 auto 70px;
 }
+
 .errorsection .linksbox {
     width: 300px;
     margin: 0 auto;
@@ -3110,18 +3116,20 @@ main.biggreenbg .breadcrumbs ul li {
     align-items: center;
     justify-content: space-between;
 }
+
 .errorsection .linksbox a {
     color: #C79C42;
     display: flex;
     align-items: center;
     transition: .3s;
 }
+
 .errorsection .linksbox a:hover {
     text-decoration: none;
     color: #fff;
 }
 
-.errorsection .linksbox a svg  {
+.errorsection .linksbox a svg {
     margin-right: 19px;
 }
 
@@ -3141,6 +3149,7 @@ main.biggreenbg .breadcrumbs ul li {
 .certificates-slider .slick-prev.slick-arrow:hover {
     background-position: center right 20px;
 }
+
 .ournews-slidersect .slick-next.slick-arrow:hover,
 .certificates-slider .slick-next.slick-arrow:hover {
     background-position: center left 20px;
@@ -3161,7 +3170,7 @@ main.biggreenbg .breadcrumbs ul li {
     color: #fff;
 }
 
-.footer__botttext  p {
+.footer__botttext p {
     text-align: center;
 }
 
@@ -3210,4 +3219,66 @@ h3 {
     line-height: 22px;
     color: #777777;
     font-weight: normal;
+}
+
+/* PArtners sectio - 14.06 */
+.partners {
+    padding: 90px 0 130px 0;
+    background: #F6F5F0;
+}
+
+.partners .title {
+    margin-bottom: 125px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 150%;
+    color: #283E39;
+}
+
+.partners .slick-slide .slidebox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+}
+
+.partners .slick-slide img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.partners .slick-dots {
+    padding: 0;
+    margin: 70px 0 0 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.partners .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+   
+}
+
+.partners .slick-dots li button {
+    color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: none;
+    padding: 0;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 1px solid #C79C42;
+    background-color: transparent;
+}
+
+.partners .slick-dots li.slick-active button {
+    background-color: #C79C42;
 }

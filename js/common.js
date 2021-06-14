@@ -407,4 +407,34 @@ $(document).ready(function () {
     });
     
 
+
+    // Partners
+
+    $('.partners-slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        focusOnSelect: true,
+        arrows: false,
+        speed: 500,
+        infinite: true,
+        dots: true,
+        responsive: [{
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }
+        ]
+
+    });
+
+
+
+
+
+
+
+
+
+
 });

@@ -2488,3 +2488,57 @@
         max-width: 60px;
     }
 }
+
+
+/* PArtners sectio - 14.06 */
+
+@media(max-width:1600.8px) {
+    .partners {
+        padding: 90px 0 80px 0;
+        background: #F6F5F0;
+    }
+    .partners .slick-slide img {
+        max-width: 80%;
+    }
+}
+
+@media(max-width:1400.8px) {
+    .partners {
+        padding: 70px 0;
+    }
+}
+
+@media(max-width:991.8px) {
+    .partners {
+        padding: 50px 0;
+        background: #F6F5F0;
+    }
+
+    .partners .title {
+        margin-bottom: 75px;
+        margin-bottom: 20px;
+        font-size: 32px;
+    }
+
+    .partners .slick-dots {
+        margin-top: 45px;
+    }
+
+}
+
+@media(max-width:767.8px) {
+    .partners .title {
+        margin-bottom: 35px;
+    }
+
+    .partners .slick-dots {
+        margin-top: 25px;
+    }
+}
+
+@media(max-width:575.8px) {
+    .partners .title {
+        font-size: 26px;
+    }
+}
+
